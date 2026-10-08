@@ -1,0 +1,112 @@
+[
+  {
+    "source_id": "international_application",
+    "title": "International application FAQ",
+    "url": "https://www.monash.edu/study/how-to-apply/application-process/international-students/after-you-apply/faq",
+    "observed_date": "2026-10-08",
+    "audience": "international applicants",
+    "record_count": 6,
+    "summary_word_count": 121,
+    "acquisition": "Public page content inspected via web search/open tools",
+    "transformation": "Short, independently phrased English question-answer summaries; not a full-page export"
+  },
+  {
+    "source_id": "vtac_preferences",
+    "title": "Change of preference FAQ",
+    "url": "https://www.monash.edu/change-of-preference/faqs",
+    "observed_date": "2026-10-08",
+    "audience": "VTAC applicants",
+    "record_count": 6,
+    "summary_word_count": 131,
+    "acquisition": "Public page content inspected via web search/open tools",
+    "transformation": "Short, independently phrased English question-answer summaries; not a full-page export"
+  },
+  {
+    "source_id": "online_study",
+    "title": "Monash Online FAQ",
+    "url": "https://online.monash.edu/faqs/",
+    "observed_date": "2026-10-08",
+    "audience": "Monash Online students",
+    "record_count": 6,
+    "summary_word_count": 120,
+    "acquisition": "Public page content inspected via web search/open tools",
+    "transformation": "Short, independently phrased English question-answer summaries; not a full-page export"
+  },
+  {
+    "source_id": "scholars_program",
+    "title": "Monash Scholars FAQ",
+    "url": "https://www.monash.edu/study/why-choose-monash/information-for-high-achieving-students/monash-scholars/monash-scholars-frequently-asked-questions",
+    "observed_date": "2026-10-08",
+    "audience": "secondary school students",
+    "record_count": 6,
+    "summary_word_count": 100,
+    "acquisition": "Public page content inspected via web search/open tools",
+    "transformation": "Short, independently phrased English question-answer summaries; not a full-page export"
+  },
+  {
+    "source_id": "research_offers",
+    "title": "Graduate research admission and scholarship FAQ",
+    "url": "https://www.monash.edu/graduate-research/support-and-resources/resources/faqs/admission-scholarship/application,-admission-and-scholarship-offers",
+    "observed_date": "2026-10-08",
+    "audience": "graduate research applicants",
+    "record_count": 6,
+    "summary_word_count": 119,
+    "acquisition": "Public page content inspected via web search/open tools",
+    "transformation": "Short, independently phrased English question-answer summaries; not a full-page export"
+  },
+  {
+    "source_id": "accommodation",
+    "title": "On-campus accommodation application FAQ",
+    "url": "https://www.monash.edu/accommodation/on-campus-accommodation/apply/faq",
+    "observed_date": "2026-10-08",
+    "audience": "on-campus accommodation applicants",
+    "record_count": 6,
+    "summary_word_count": 115,
+    "acquisition": "Public page content inspected via web search/open tools",
+    "transformation": "Short, independently phrased English question-answer summaries; not a full-page export"
+  },
+  {
+    "source_id": "library",
+    "title": "Library borrowing",
+    "url": "https://www.monash.edu/library/find-and-borrow/borrowing",
+    "observed_date": "2026-10-08",
+    "audience": "Victorian campus library users",
+    "record_count": 6,
+    "summary_word_count": 115,
+    "acquisition": "Public page content inspected via web search/open tools",
+    "transformation": "Short, independently phrased English question-answer summaries; not a full-page export"
+  },
+  {
+    "source_id": "graduate_study",
+    "title": "Graduate study FAQ",
+    "url": "https://www.monash.edu/graduate-study/faqs",
+    "observed_date": "2026-10-08",
+    "audience": "graduate coursework applicants",
+    "record_count": 6,
+    "summary_word_count": 126,
+    "acquisition": "Public page content inspected via web search/open tools",
+    "transformation": "Short, independently phrased English question-answer summaries; not a full-page export"
+  },
+  {
+    "source_id": "scholarship_applications",
+    "title": "Scholarship applications",
+    "url": "https://www.monash.edu/study/fees-scholarships/scholarships/applications",
+    "observed_date": "2026-10-08",
+    "audience": "scholarship applicants; rules vary by applicant type",
+    "record_count": 6,
+    "summary_word_count": 113,
+    "acquisition": "Public page content inspected via web search/open tools",
+    "transformation": "Short, independently phrased English question-answer summaries; not a full-page export"
+  },
+  {
+    "source_id": "international_postgraduate",
+    "title": "International postgraduate study",
+    "url": "https://www.monash.edu/study/international/graduate",
+    "observed_date": "2026-10-08",
+    "audience": "international postgraduate applicants",
+    "record_count": 4,
+    "summary_word_count": 85,
+    "acquisition": "Public page content inspected via web search/open tools",
+    "transformation": "Short, independently phrased English question-answer summaries; not a full-page export"
+  }
+]

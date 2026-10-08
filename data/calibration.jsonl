@@ -1,0 +1,10 @@
+{"id": "cal_international_application_02", "kind": "answerable", "question": "What evidence might I need to satisfy a conditional admission offer?", "target_id": "international_application_02"}
+{"id": "cal_online_study_02", "kind": "answerable", "question": "Is the qualification awarded through Monash Online equivalent to the on-campus award?", "target_id": "online_study_02"}
+{"id": "cal_accommodation_02", "kind": "answerable", "question": "Do I need a course offer before applying for campus accommodation?", "target_id": "accommodation_02"}
+{"id": "cal_library_02", "kind": "answerable", "question": "How many ordinary library items may an undergraduate initially borrow and for how long?", "target_id": "library_02"}
+{"id": "cal_graduate_study_04", "kind": "answerable", "question": "How does a graduate course map help me plan my units?", "target_id": "graduate_study_04"}
+{"id": "cal_unsupported_01", "kind": "unsupported", "question": "What exact IELTS score is shown on my personal conditional offer?", "target_id": null}
+{"id": "cal_unsupported_02", "kind": "unsupported", "question": "What grade will I get in my next Monash Online exam?", "target_id": null}
+{"id": "cal_unsupported_03", "kind": "unsupported", "question": "What is my accommodation waitlist position today?", "target_id": null}
+{"id": "cal_unsupported_04", "kind": "unsupported", "question": "What is the due date of the book I borrowed yesterday?", "target_id": null}
+{"id": "cal_unsupported_05", "kind": "unsupported", "question": "Will my individual graduate credit transfer request be approved?", "target_id": null}
