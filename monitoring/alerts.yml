@@ -1,0 +1,31 @@
+groups:
+  - name: monash_faq_operations
+    rules:
+      - alert: FAQBackendUnavailable
+        expr: up{job="monash_faq_api"} == 0 or faq_model_ready == 0
+        for: 2m
+        labels:
+          severity: critical
+        annotations:
+          summary: FAQ serving backend is unavailable
+      - alert: FAQHighServerErrorRate
+        expr: (sum(rate(faq_http_requests_total{route="/v1/answer",status=~"5.."}[5m])) / clamp_min(sum(rate(faq_http_requests_total{route="/v1/answer"}[5m])), 0.000001) > 0.05) and sum(increase(faq_http_requests_total{route="/v1/answer"}[5m])) >= 20
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: FAQ answer error rate exceeds five percent with at least twenty requests
+      - alert: FAQHighAnswerLatency
+        expr: (histogram_quantile(0.95, sum by (le) (rate(faq_http_request_duration_seconds_bucket{route="/v1/answer"}[5m]))) > 20) and sum(increase(faq_http_requests_total{route="/v1/answer"}[5m])) >= 20
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: FAQ answer latency exceeds twenty seconds at p95
+      - alert: FAQInvalidModelOutput
+        expr: sum(increase(faq_guardrail_blocks_total{reason=~"invalid_model_output|invalid_evidence_id|generation_error"}[10m])) >= 5
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: Repeated invalid outputs or generation failures need investigation
