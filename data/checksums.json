@@ -1,0 +1,9 @@
+{
+  "benchmark.jsonl": "d51ee22ba5b545fe7ec62b9ce48f1f741a183e6704b9c57e935bf1bb3831a981",
+  "calibration.jsonl": "814ae0484f7241fa5c16e9b8319915c4bdb5ed8533899efbda946aa77e03da29",
+  "monash_qa.jsonl": "a486cb31cb4c02bd2abd2ef14a996637fa08e619140c6c21f69680df023e0d5f",
+  "sources.json": "d01368afbf71fc602860911b51c2782f3fa224c80355edbea2e09ebe1e79896b",
+  "test.jsonl": "6f7075a14d524f5d3357a01d1b3613f34bd7a8733a15d75951ae45dee004050c",
+  "train.jsonl": "6b7cc218aad078fa5c5bbfe93d490e415d859ea34ffa7b35b59c6ab42f61b429",
+  "validation.jsonl": "c26e7a485b77a21b693388cd23f4dc9cf62f83651be2969ff827389e0b9d0f7d"
+}
