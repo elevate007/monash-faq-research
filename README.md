@@ -27,6 +27,8 @@ The follow-up Kaggle experiment produced 80 model responses and 40 derived basel
 
 ## Reproduce on Kaggle
 
+[Release downloads](https://github.com/elevate007/monash-faq-research/releases) include the original pilot adapter bundle, the unmodified comparison-results export, and a repository snapshot. The original pilot adapter and the follow-up retraining are distinguished in the release notes; no base-model weights are redistributed.
+
 1. Import `notebooks/02_research_comparison.ipynb` into a new Kaggle notebook.
 2. Enable Internet and choose a T4 GPU accelerator. The code uses one T4 even when T4 x2 is selected.
 3. Save & Run All. The notebook embeds the frozen data and retrieval code; no GitHub token or private data is needed.
