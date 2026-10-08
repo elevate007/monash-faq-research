@@ -1,0 +1,23 @@
+{
+  "tests": "15 passed",
+  "actual_model_http_check": "completed_cpu_fp32_with_pilot_adapter",
+  "actual_model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "adapter_weights_sha256": "ffdab8ebdca3609b3b5c3f60e5c755c807be96f17bda7b41766e2f86c20d3ea3",
+  "versions": {
+    "torch": "2.14.1+cpu",
+    "transformers": "4.57.6",
+    "peft": "0.18.1",
+    "fastapi": "0.115.12",
+    "starlette": "0.46.2",
+    "uvicorn": "0.34.2",
+    "prometheus-client": "0.22.1",
+    "pydantic": "2.11.3",
+    "httpx": "0.28.1"
+  },
+  "docker_runtime_check": "not_run_Docker_not_installed",
+  "compose_yaml_and_grafana_json": "parsed",
+  "monitoring_panels": 12,
+  "note": "Tests use explicit doubles; actual model HTTP evaluation is recorded separately. No production hallucination-rate claim.",
+  "api_response_schema": "typed_openapi_response",
+  "latency_histogram": "buckets_cover_20_second_alert_threshold"
+}
