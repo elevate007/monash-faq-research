@@ -7,6 +7,7 @@
 - Developed a reproducible Qwen2.5-1.5B QLoRA pipeline with assistant-only loss, source-attributed FAQ records, fixed fact-level splits, validation-selected checkpoints, and adapter export/reload.
 - Compared closed-book base/adapter models with retrieval-assisted answering and abstention; published raw outputs, agent-assisted review labels, integrity checks, and an error analysis separating loss from factual support.
 - Investigated a negative fine-tuning result and the tradeoff between evidence retrieval and refusal, with an English research report and a local extractive demonstration.
+- Extended the project with an AI-assisted FastAPI serving layer, source-grounded evidence selection, input/output guards, Prometheus metrics, Grafana provisioning, and API integration tests.
 
 Project: https://github.com/elevate007/monash-faq-research
 
