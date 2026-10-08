@@ -4,6 +4,18 @@
 
 This project adapts Qwen2.5-1.5B-Instruct to a small source-attributed university FAQ dataset, then compares closed-book answering with retrieval-assisted answering and abstention. It includes executable Kaggle notebooks, fixed fact-level splits, raw predictions, a published evaluation protocol, error analysis, integrity checks, and a lightweight local demo.
 
+**Serving extension (v0.2):** [FastAPI service and RAG runbook](docs/SERVING.md), the actual adapter loader, evidence-ID selection with exact snapshot answers, experimental guarded generation, a local operations dashboard, Prometheus metrics, a 12-panel Grafana dashboard, and alert rules. See [live serving results](results/serving) for the actual CPU/FP32 HTTP evaluation; this is distinct from the earlier GPU research experiment.
+
+```bash
+pip install -r requirements-inference.txt  # install host-appropriate PyTorch separately
+python src/download_adapter.py
+uvicorn service.app:app --host 127.0.0.1 --port 8000 --workers 1 --no-access-log
+```
+
+Open `http://127.0.0.1:8000` for the question-and-monitoring page and `/docs` for OpenAPI. Direct startup defaults to the real Qwen adapter. `docker compose up --build` provides a local API/Prometheus/Grafana demonstration, explicitly defaulting to the lightweight extractive backend. Docker container execution is not implied by configuration validation.
+
+![Actual Qwen adapter served through FastAPI with RAG and operational counters](docs/api_preview.png)
+
 The original QLoRA run lowered held-out assistant-token loss from **3.0037 to 1.5889**, yet strict agent-assisted review supported only **1/10** adapter answers compared with **2/10** base answers. The goal is to study that failure openly and test whether access to evidence helps.
 
 ![Original pilot: loss and supported-answer counts](docs/pilot_results.png)
@@ -24,6 +36,7 @@ The follow-up Kaggle experiment produced 80 model responses and 40 derived basel
 | [Raw pilot results](results/pilot) / [comparison results](results/comparison) | Inspectable outputs and reviewer labels |
 | [Review rubric](docs/REVIEW_RUBRIC.md) | How factual support and unsupported-question refusals are judged |
 | [Application notes](docs/PORTFOLIO.md) | Defensible CV wording and interview discussion points |
+| [API and monitoring runbook](docs/SERVING.md) | Model serving, RAG modes, deployment, metrics, and alert interpretation |
 
 ## Reproduce on Kaggle
 

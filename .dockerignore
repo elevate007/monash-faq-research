@@ -1,0 +1,10 @@
+.git
+work
+models
+model_cache
+monitoring_data
+__pycache__
+*.zip
+*.log
+.env
+.pytest_cache
