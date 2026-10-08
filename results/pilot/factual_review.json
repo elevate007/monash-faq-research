@@ -1,0 +1,11 @@
+{
+  "evaluation_size": 10,
+  "rubric": "Strict answer-body support against the saved official reference; incomplete, contradictory or ambiguous answers receive 0. Exact source URL matching is assessed separately. This is a qualitative pilot review, not a statistically reliable accuracy estimate.",
+  "baseline_supported_answer_count": 2,
+  "finetuned_supported_answer_count": 1,
+  "finetuned_exact_source_match_count": 0,
+  "conclusion": "Loss improved, but reliable factual answering was not achieved. The trained model still generates incorrect facts and invented source URLs.",
+  "review_file": "before_after_review.csv",
+  "original_kaggle_archive": "monash_trained_adapter.zip",
+  "note": "The local review CSV adds reviewer judgments. The original Kaggle archive is preserved unchanged."
+}
