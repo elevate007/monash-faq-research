@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Monash FAQ Research | Extractive demo</title>
+<style>
+body{background:#f6f7fb;color:#172335;font:17px/1.6 system-ui,sans-serif;margin:0}main{max-width:880px;margin:70px auto;padding:24px}.eyebrow{color:#375cc7;text-transform:uppercase;letter-spacing:2px;font-size:12px;font-weight:700}h1{font-size:44px;line-height:1.15;max-width:700px}p{color:#526073}form{display:flex;gap:12px;margin:30px 0}input{flex:1;padding:16px;border:1px solid #bbc5d5;border-radius:10px;font:inherit}button{padding:14px 22px;background:#294dc0;color:white;border:0;border-radius:10px;font:inherit;cursor:pointer}.card{background:white;padding:24px;border:1px solid #dfe4ed;border-radius:12px;margin:16px 0}.badge{font-size:12px;padding:5px 10px;border-radius:20px;background:#e9efff;color:#294dc0}a{color:#294dc0;overflow-wrap:anywhere}details{margin:24px 0}small{color:#526073}.example{background:transparent;color:#294dc0;padding:0;text-align:left}
+</style>
+<main><div class="eyebrow">Independent NLP research pilot</div><h1>Can a small model answer from evidence?</h1>
+<p>This interactive demo retrieves a saved FAQ summary using BM25. It does not generate an answer with an LLM. The Kaggle notebook contains the QLoRA and RAG model comparison.</p>
+<form id="search"><input id="q" aria-label="Your FAQ question" placeholder="Ask about applications, scholarships, or campus life" required><button>Search</button></form>
+<button class="example" id="example">Try: Do research scholarships pay visa application charges?</button>
+<section id="result" aria-live="polite"></section>
+<small>58 source-attributed summaries · snapshot 2026-10-08 · English · not an official Monash service. A valid source link alone does not prove an answer is correct.</small>
+</main>
+<script>
+const form=document.querySelector('#search'), q=document.querySelector('#q'), result=document.querySelector('#result');
+function node(tag,text,parent){const el=document.createElement(tag);el.textContent=text;parent.append(el);return el}
+function source(url,parent){const a=node('a','Official source',parent);a.href=url;a.target='_blank';a.rel='noopener noreferrer'}
+form.onsubmit=async e=>{e.preventDefault();result.replaceChildren();node('p','Searching the frozen snapshot...',result);try{const response=await fetch('/api/search?q='+encodeURIComponent(q.value));if(!response.ok)throw Error('Search failed');const r=await response.json();result.replaceChildren();const card=node('div','',result);card.className='card';node('span',r.accepted?'Extracted summary':'Abstained',card).className='badge';node('p',r.answer,card);if(r.source)source(r.source,card);node('p',`Top-hit lexical coverage: ${r.coverage.toFixed(2)} · calibrated threshold: ${r.threshold.toFixed(2)}`,card);const details=node('details','',result);node('summary','Inspect the three retrieved candidates',details);r.candidates.forEach(c=>{const d=node('div','',details);d.className='card';node('strong',c.question,d);node('p',c.answer,d);source(c.source,d)})}catch(err){result.replaceChildren();node('p',err.message,result)}};
+document.querySelector('#example').onclick=()=>{q.value='Do research scholarships pay visa application charges?';form.requestSubmit()};
+</script></html>
