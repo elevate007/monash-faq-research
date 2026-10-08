@@ -8,6 +8,10 @@ The original QLoRA run lowered held-out assistant-token loss from **3.0037 to 1.
 
 ![Original pilot: loss and supported-answer counts](docs/pilot_results.png)
 
+The follow-up Kaggle experiment produced 80 model responses and 40 derived baseline outputs. On ten answerable paraphrases, both RAG configurations had **8/10** fully supported answer bodies. On ten unsupported questions, base+RAG had **6/10** appropriate explicit refusals and adapter+RAG had **1/10**. The calibrated gated system refused all ten unsupported questions, while also refusing five answerable questions. These are strict agent-assisted judgments on a tiny convenience set, not production accuracy.
+
+![Exploratory model and retrieval comparison](docs/comparison_results.png)
+
 ## Explore the research
 
 | Artifact | What it demonstrates |
