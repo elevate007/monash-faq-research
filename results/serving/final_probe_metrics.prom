@@ -1,0 +1,114 @@
+# HELP faq_http_requests_total HTTP responses by bounded route and status
+# TYPE faq_http_requests_total counter
+faq_http_requests_total{method="GET",route="/readyz",status="200"} 1.0
+faq_http_requests_total{method="POST",route="/v1/answer",status="200"} 2.0
+# HELP faq_http_requests_created HTTP responses by bounded route and status
+# TYPE faq_http_requests_created gauge
+faq_http_requests_created{method="GET",route="/readyz",status="200"} 1.7914401072836735e+09
+faq_http_requests_created{method="POST",route="/v1/answer",status="200"} 1.7914401117641263e+09
+# HELP faq_http_request_duration_seconds HTTP request latency
+# TYPE faq_http_request_duration_seconds histogram
+faq_http_request_duration_seconds_bucket{le="0.01",route="/readyz"} 1.0
+faq_http_request_duration_seconds_bucket{le="0.05",route="/readyz"} 1.0
+faq_http_request_duration_seconds_bucket{le="0.1",route="/readyz"} 1.0
+faq_http_request_duration_seconds_bucket{le="0.25",route="/readyz"} 1.0
+faq_http_request_duration_seconds_bucket{le="0.5",route="/readyz"} 1.0
+faq_http_request_duration_seconds_bucket{le="1.0",route="/readyz"} 1.0
+faq_http_request_duration_seconds_bucket{le="2.0",route="/readyz"} 1.0
+faq_http_request_duration_seconds_bucket{le="5.0",route="/readyz"} 1.0
+faq_http_request_duration_seconds_bucket{le="10.0",route="/readyz"} 1.0
+faq_http_request_duration_seconds_bucket{le="20.0",route="/readyz"} 1.0
+faq_http_request_duration_seconds_bucket{le="30.0",route="/readyz"} 1.0
+faq_http_request_duration_seconds_bucket{le="60.0",route="/readyz"} 1.0
+faq_http_request_duration_seconds_bucket{le="120.0",route="/readyz"} 1.0
+faq_http_request_duration_seconds_bucket{le="180.0",route="/readyz"} 1.0
+faq_http_request_duration_seconds_bucket{le="+Inf",route="/readyz"} 1.0
+faq_http_request_duration_seconds_count{route="/readyz"} 1.0
+faq_http_request_duration_seconds_sum{route="/readyz"} 0.0011355999995430466
+faq_http_request_duration_seconds_bucket{le="0.01",route="/v1/answer"} 1.0
+faq_http_request_duration_seconds_bucket{le="0.05",route="/v1/answer"} 1.0
+faq_http_request_duration_seconds_bucket{le="0.1",route="/v1/answer"} 1.0
+faq_http_request_duration_seconds_bucket{le="0.25",route="/v1/answer"} 1.0
+faq_http_request_duration_seconds_bucket{le="0.5",route="/v1/answer"} 1.0
+faq_http_request_duration_seconds_bucket{le="1.0",route="/v1/answer"} 1.0
+faq_http_request_duration_seconds_bucket{le="2.0",route="/v1/answer"} 1.0
+faq_http_request_duration_seconds_bucket{le="5.0",route="/v1/answer"} 2.0
+faq_http_request_duration_seconds_bucket{le="10.0",route="/v1/answer"} 2.0
+faq_http_request_duration_seconds_bucket{le="20.0",route="/v1/answer"} 2.0
+faq_http_request_duration_seconds_bucket{le="30.0",route="/v1/answer"} 2.0
+faq_http_request_duration_seconds_bucket{le="60.0",route="/v1/answer"} 2.0
+faq_http_request_duration_seconds_bucket{le="120.0",route="/v1/answer"} 2.0
+faq_http_request_duration_seconds_bucket{le="180.0",route="/v1/answer"} 2.0
+faq_http_request_duration_seconds_bucket{le="+Inf",route="/v1/answer"} 2.0
+faq_http_request_duration_seconds_count{route="/v1/answer"} 2.0
+faq_http_request_duration_seconds_sum{route="/v1/answer"} 4.4595183999990695
+# HELP faq_http_request_duration_seconds_created HTTP request latency
+# TYPE faq_http_request_duration_seconds_created gauge
+faq_http_request_duration_seconds_created{route="/readyz"} 1.7914401072836735e+09
+faq_http_request_duration_seconds_created{route="/v1/answer"} 1.7914401117641263e+09
+# HELP faq_answers_total Answer decisions
+# TYPE faq_answers_total counter
+faq_answers_total{backend="qwen",mode="grounded",outcome="answered",reason="grounded_selection"} 1.0
+faq_answers_total{backend="qwen",mode="grounded",outcome="abstained",reason="future_information"} 1.0
+# HELP faq_answers_created Answer decisions
+# TYPE faq_answers_created gauge
+faq_answers_created{backend="qwen",mode="grounded",outcome="answered",reason="grounded_selection"} 1.7914401117632735e+09
+faq_answers_created{backend="qwen",mode="grounded",outcome="abstained",reason="future_information"} 1.7914401117784991e+09
+# HELP faq_generation_duration_seconds Synchronous model generation latency
+# TYPE faq_generation_duration_seconds histogram
+faq_generation_duration_seconds_bucket{le="0.01"} 0.0
+faq_generation_duration_seconds_bucket{le="0.05"} 0.0
+faq_generation_duration_seconds_bucket{le="0.1"} 0.0
+faq_generation_duration_seconds_bucket{le="0.25"} 0.0
+faq_generation_duration_seconds_bucket{le="0.5"} 0.0
+faq_generation_duration_seconds_bucket{le="1.0"} 0.0
+faq_generation_duration_seconds_bucket{le="2.0"} 0.0
+faq_generation_duration_seconds_bucket{le="5.0"} 1.0
+faq_generation_duration_seconds_bucket{le="10.0"} 1.0
+faq_generation_duration_seconds_bucket{le="20.0"} 1.0
+faq_generation_duration_seconds_bucket{le="30.0"} 1.0
+faq_generation_duration_seconds_bucket{le="60.0"} 1.0
+faq_generation_duration_seconds_bucket{le="120.0"} 1.0
+faq_generation_duration_seconds_bucket{le="180.0"} 1.0
+faq_generation_duration_seconds_bucket{le="+Inf"} 1.0
+faq_generation_duration_seconds_count 1.0
+faq_generation_duration_seconds_sum 4.450395899999421
+# HELP faq_generation_duration_seconds_created Synchronous model generation latency
+# TYPE faq_generation_duration_seconds_created gauge
+faq_generation_duration_seconds_created 1.7914399890150497e+09
+# HELP faq_retrieval_coverage Lexical query coverage, not probability
+# TYPE faq_retrieval_coverage histogram
+faq_retrieval_coverage_bucket{le="0.0"} 0.0
+faq_retrieval_coverage_bucket{le="0.2"} 0.0
+faq_retrieval_coverage_bucket{le="0.4"} 0.0
+faq_retrieval_coverage_bucket{le="0.5"} 1.0
+faq_retrieval_coverage_bucket{le="0.6"} 1.0
+faq_retrieval_coverage_bucket{le="0.8"} 1.0
+faq_retrieval_coverage_bucket{le="1.0"} 2.0
+faq_retrieval_coverage_bucket{le="+Inf"} 2.0
+faq_retrieval_coverage_count 2.0
+faq_retrieval_coverage_sum 1.5
+# HELP faq_retrieval_coverage_created Lexical query coverage, not probability
+# TYPE faq_retrieval_coverage_created gauge
+faq_retrieval_coverage_created 1.7914399890150497e+09
+# HELP faq_output_tokens_total Generated model tokens
+# TYPE faq_output_tokens_total counter
+faq_output_tokens_total 13.0
+# HELP faq_output_tokens_created Generated model tokens
+# TYPE faq_output_tokens_created gauge
+faq_output_tokens_created 1.7914399890150497e+09
+# HELP faq_inference_inflight Active model generations
+# TYPE faq_inference_inflight gauge
+faq_inference_inflight 0.0
+# HELP faq_model_ready Loaded serving backend readiness
+# TYPE faq_model_ready gauge
+faq_model_ready 1.0
+# HELP faq_gpu_allocated_bytes Torch allocated GPU memory, zero on CPU
+# TYPE faq_gpu_allocated_bytes gauge
+faq_gpu_allocated_bytes 0.0
+# HELP faq_guardrail_blocks_total Policy or output-validation blocks
+# TYPE faq_guardrail_blocks_total counter
+faq_guardrail_blocks_total{reason="future_information"} 1.0
+# HELP faq_guardrail_blocks_created Policy or output-validation blocks
+# TYPE faq_guardrail_blocks_created gauge
+faq_guardrail_blocks_created{reason="future_information"} 1.7914401117784991e+09

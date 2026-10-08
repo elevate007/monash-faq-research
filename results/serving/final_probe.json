@@ -1,0 +1,112 @@
+{
+  "ready": {
+    "status": "ready",
+    "model": {
+      "backend": "qwen",
+      "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+      "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+      "adapter_loaded": true,
+      "device": "cpu",
+      "quantization": "fp32"
+    },
+    "snapshot_date": "2026-10-08"
+  },
+  "answer": {
+    "request_id": "0ca0e84c-f0ac-432b-9635-e534af5465ca",
+    "answer": "No. Those application charges are excluded.",
+    "abstained": false,
+    "reason": "grounded_selection",
+    "citations": [
+      {
+        "record_id": "research_offers_02",
+        "url": "https://www.monash.edu/graduate-research/support-and-resources/resources/faqs/admission-scholarship/application,-admission-and-scholarship-offers",
+        "audience": "graduate research applicants",
+        "candidate_only": false
+      }
+    ],
+    "mode": "grounded",
+    "model": {
+      "backend": "qwen",
+      "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+      "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+      "adapter_loaded": true,
+      "device": "cpu",
+      "quantization": "fp32"
+    },
+    "snapshot_date": "2026-10-08",
+    "support_check": "exact_snapshot_text",
+    "retrieval": {
+      "coverage": 1.0,
+      "threshold": 0.5,
+      "record_ids": [
+        "research_offers_02",
+        "research_offers_04",
+        "scholarship_applications_03"
+      ],
+      "scores": [
+        20.78302,
+        5.6898,
+        5.57495
+      ]
+    },
+    "latency_ms": 4452.0
+  },
+  "refusal": {
+    "request_id": "7dbdc06d-22fc-46fb-9e3c-86be977add97",
+    "answer": "I cannot establish that from the supplied Monash FAQ snapshot. Please check with the relevant official Monash team.",
+    "abstained": true,
+    "reason": "future_information",
+    "citations": [],
+    "mode": "grounded",
+    "model": {
+      "backend": "qwen",
+      "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+      "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+      "adapter_loaded": true,
+      "device": "cpu",
+      "quantization": "fp32"
+    },
+    "snapshot_date": "2026-10-08",
+    "support_check": "none",
+    "retrieval": {
+      "coverage": 0.5,
+      "threshold": 0.5,
+      "record_ids": [
+        "accommodation_01",
+        "research_offers_02",
+        "scholarship_applications_06"
+      ],
+      "scores": [
+        7.11046,
+        6.67589,
+        2.8045
+      ]
+    },
+    "latency_ms": 0.4
+  },
+  "monitoring": {
+    "model": {
+      "backend": "qwen",
+      "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+      "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+      "adapter_loaded": true,
+      "device": "cpu",
+      "quantization": "fp32"
+    },
+    "mode": "grounded",
+    "counters": {
+      "requests": 4,
+      "errors": 0,
+      "answers": 2,
+      "abstentions": 1,
+      "guardrail_blocks": 1,
+      "generation_calls": 1,
+      "generation_errors": 0,
+      "total_generation_seconds": 4.450395899999421
+    },
+    "interpretation": "Operational signals, not factual accuracy or a definitive hallucination detector.",
+    "snapshot_date": "2026-10-08",
+    "threshold": 0.5
+  },
+  "note": "Actual reloaded adapter on CPU/FP32, final typed response and operational metrics. Public FAQ probes only."
+}

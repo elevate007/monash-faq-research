@@ -1,0 +1,42 @@
+{
+  "model": {
+    "backend": "qwen",
+    "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "adapter_loaded": true,
+    "device": "cpu",
+    "quantization": "fp32"
+  },
+  "python": "3.12.14",
+  "mode": "grounded",
+  "benchmark_sha256": "d51ee22ba5b545fe7ec62b9ce48f1f741a183e6704b9c57e935bf1bb3831a981",
+  "answerable_size": 10,
+  "unsupported_size": 10,
+  "exact_target_selection_count": 4,
+  "unsupported_refusal_count": 10,
+  "answerable_refusal_count": 5,
+  "monitoring": {
+    "model": {
+      "backend": "qwen",
+      "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+      "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+      "adapter_loaded": true,
+      "device": "cpu",
+      "quantization": "fp32"
+    },
+    "counters": {
+      "requests": 22,
+      "errors": 0,
+      "answers": 20,
+      "abstentions": 15,
+      "guardrail_blocks": 15,
+      "generation_calls": 5,
+      "generation_errors": 0,
+      "total_generation_seconds": 32.07206149999911
+    },
+    "interpretation": "Operational signals, not factual accuracy or a definitive hallucination detector.",
+    "snapshot_date": "2026-10-08",
+    "threshold": 0.5
+  },
+  "note": "Tiny convenience-set live integration check, not independent factual accuracy. Grounded mode returns exact stored summaries; wrong record selection and stale facts remain possible. CPU FP32 inference differs from the original T4 NF4 experiment."
+}
