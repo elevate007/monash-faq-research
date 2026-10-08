@@ -1,0 +1,20 @@
+{
+  "method": "BM25 k1=1.5 b=0.75, word tokenization, question+answer index",
+  "knowledge_base_size": 58,
+  "answerable_size": 10,
+  "unsupported_size": 10,
+  "threshold": 0.5,
+  "recall_at_3": 1.0,
+  "mrr_at_3": 0.9333333333333333,
+  "unsupported_gate_refusal_count": 9,
+  "answerable_top1_correct_and_accepted_count": 4,
+  "note": "Diagnostic on a tiny author-written convenience set; retrieval has access to all 58 FAQ facts, including fine-tuning holdouts. Retrieval refusal is not model refusal or answer correctness.",
+  "data_sha256": {
+    "benchmark.jsonl": "d51ee22ba5b545fe7ec62b9ce48f1f741a183e6704b9c57e935bf1bb3831a981",
+    "calibration.jsonl": "814ae0484f7241fa5c16e9b8319915c4bdb5ed8533899efbda946aa77e03da29",
+    "monash_qa.jsonl": "a486cb31cb4c02bd2abd2ef14a996637fa08e619140c6c21f69680df023e0d5f",
+    "test.jsonl": "6f7075a14d524f5d3357a01d1b3613f34bd7a8733a15d75951ae45dee004050c",
+    "train.jsonl": "6b7cc218aad078fa5c5bbfe93d490e415d859ea34ffa7b35b59c6ab42f61b429",
+    "validation.jsonl": "c26e7a485b77a21b693388cd23f4dc9cf62f83651be2969ff827389e0b9d0f7d"
+  }
+}
