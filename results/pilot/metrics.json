@@ -1,0 +1,28 @@
+{
+  "baseline_test": {
+    "baseline_test_loss": 3.0036773681640625,
+    "baseline_test_model_preparation_time": 0.0051,
+    "baseline_test_runtime": 3.962,
+    "baseline_test_samples_per_second": 2.524,
+    "baseline_test_steps_per_second": 2.524
+  },
+  "finetuned_test": {
+    "finetuned_test_loss": 1.588923692703247,
+    "finetuned_test_model_preparation_time": 0.0051,
+    "finetuned_test_runtime": 3.6656,
+    "finetuned_test_samples_per_second": 2.728,
+    "finetuned_test_steps_per_second": 2.728,
+    "epoch": 3.0
+  },
+  "train": {
+    "train_runtime": 146.7803,
+    "train_samples_per_second": 0.879,
+    "train_steps_per_second": 0.225,
+    "total_flos": 163793865867264.0,
+    "train_loss": 1.7381395968523892,
+    "epoch": 3.0
+  },
+  "test_size": 10,
+  "best_checkpoint": "/kaggle/working/monash_finetune_run/checkpoints/checkpoint-33",
+  "note": "Loss is not factual accuracy; use the manual review CSV."
+}
