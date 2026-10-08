@@ -1,0 +1,10 @@
+apiVersion: 1
+providers:
+  - name: Monash FAQ
+    orgId: 1
+    folder: Model operations
+    type: file
+    disableDeletion: true
+    editable: false
+    options:
+      path: /var/lib/grafana/dashboards
