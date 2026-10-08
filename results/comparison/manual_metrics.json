@@ -1,0 +1,50 @@
+{
+  "base": {
+    "supported_answer_count": 0,
+    "answerable_size": 10,
+    "appropriate_refusal_count": 4,
+    "unsupported_size": 10,
+    "answerable_refusal_count": 0,
+    "generated_url_count": 8
+  },
+  "extractive_bm25": {
+    "supported_answer_count": 4,
+    "answerable_size": 10,
+    "appropriate_refusal_count": 9,
+    "unsupported_size": 10,
+    "answerable_refusal_count": 5,
+    "generated_url_count": 0
+  },
+  "gated_rag_base": {
+    "supported_answer_count": 3,
+    "answerable_size": 10,
+    "appropriate_refusal_count": 10,
+    "unsupported_size": 10,
+    "answerable_refusal_count": 5,
+    "generated_url_count": 0
+  },
+  "qlora": {
+    "supported_answer_count": 0,
+    "answerable_size": 10,
+    "appropriate_refusal_count": 0,
+    "unsupported_size": 10,
+    "answerable_refusal_count": 0,
+    "generated_url_count": 21
+  },
+  "rag_base": {
+    "supported_answer_count": 8,
+    "answerable_size": 10,
+    "appropriate_refusal_count": 6,
+    "unsupported_size": 10,
+    "answerable_refusal_count": 0,
+    "generated_url_count": 0
+  },
+  "rag_qlora": {
+    "supported_answer_count": 8,
+    "answerable_size": 10,
+    "appropriate_refusal_count": 1,
+    "unsupported_size": 10,
+    "answerable_refusal_count": 0,
+    "generated_url_count": 2
+  }
+}

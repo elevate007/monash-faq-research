@@ -1,0 +1,362 @@
+[
+  {
+    "id": "heldout_international_application_04",
+    "kind": "answerable",
+    "question": "I applied as an international student and now want another course. How do I request a course change?",
+    "target_id": "international_application_04",
+    "reference_answer": "Send the request to mu.documents@monash.edu.",
+    "source_url": "https://www.monash.edu/study/how-to-apply/application-process/international-students/after-you-apply/faq",
+    "topic": "international_application",
+    "retrieved_ids": [
+      "international_application_04",
+      "online_study_06",
+      "vtac_preferences_02"
+    ],
+    "coverage": 0.4444444444444444,
+    "accepted": false,
+    "prediction": "I cannot establish that from the supplied Monash FAQ snapshot. Please check with the relevant official Monash team.",
+    "source_url_attached": null
+  },
+  {
+    "id": "heldout_vtac_preferences_04",
+    "kind": "answerable",
+    "question": "Do I have to pay each time I reorder my VTAC course preferences?",
+    "target_id": "vtac_preferences_04",
+    "reference_answer": "Changes are free and can be repeated before the relevant deadline.",
+    "source_url": "https://www.monash.edu/change-of-preference/faqs",
+    "topic": "vtac_preferences",
+    "retrieved_ids": [
+      "vtac_preferences_06",
+      "vtac_preferences_03",
+      "vtac_preferences_04"
+    ],
+    "coverage": 0.5,
+    "accepted": true,
+    "prediction": "Listing a Monash course in your preferences enables automatic assessment based on your ATAR.",
+    "source_url_attached": "https://www.monash.edu/change-of-preference/faqs"
+  },
+  {
+    "id": "heldout_online_study_04",
+    "kind": "answerable",
+    "question": "How can I work out the tuition price of a Monash Online course?",
+    "target_id": "online_study_04",
+    "reference_answer": "Check unit fees on the course page; the total depends on your units and approved credit.",
+    "source_url": "https://online.monash.edu/faqs/",
+    "topic": "online_study",
+    "retrieved_ids": [
+      "online_study_04",
+      "vtac_preferences_06",
+      "online_study_03"
+    ],
+    "coverage": 0.5714285714285714,
+    "accepted": true,
+    "prediction": "Check unit fees on the course page; the total depends on your units and approved credit.",
+    "source_url_attached": "https://online.monash.edu/faqs/"
+  },
+  {
+    "id": "heldout_scholars_program_02",
+    "kind": "answerable",
+    "question": "What school year and school endorsement are needed to apply for Monash Scholars?",
+    "target_id": "scholars_program_02",
+    "reference_answer": "Applications are for endorsed Year 10 students at participating schools.",
+    "source_url": "https://www.monash.edu/study/why-choose-monash/information-for-high-achieving-students/monash-scholars/monash-scholars-frequently-asked-questions",
+    "topic": "scholars_program",
+    "retrieved_ids": [
+      "scholars_program_02",
+      "accommodation_02",
+      "scholars_program_01"
+    ],
+    "coverage": 0.42857142857142855,
+    "accepted": false,
+    "prediction": "I cannot establish that from the supplied Monash FAQ snapshot. Please check with the relevant official Monash team.",
+    "source_url_attached": null
+  },
+  {
+    "id": "heldout_research_offers_02",
+    "kind": "answerable",
+    "question": "Will a graduate research scholarship cover my visa application fee?",
+    "target_id": "research_offers_02",
+    "reference_answer": "No. Those application charges are excluded.",
+    "source_url": "https://www.monash.edu/graduate-research/support-and-resources/resources/faqs/admission-scholarship/application,-admission-and-scholarship-offers",
+    "topic": "research_offers",
+    "retrieved_ids": [
+      "research_offers_02",
+      "scholarship_applications_03",
+      "research_offers_06"
+    ],
+    "coverage": 0.42857142857142855,
+    "accepted": false,
+    "prediction": "I cannot establish that from the supplied Monash FAQ snapshot. Please check with the relevant official Monash team.",
+    "source_url_attached": null
+  },
+  {
+    "id": "heldout_accommodation_03",
+    "kind": "answerable",
+    "question": "May I list two accommodation sites in the same campus housing application?",
+    "target_id": "accommodation_03",
+    "reference_answer": "Select one site; you may request consideration for the same-campus alternative if unsuccessful.",
+    "source_url": "https://www.monash.edu/accommodation/on-campus-accommodation/apply/faq",
+    "topic": "accommodation",
+    "retrieved_ids": [
+      "accommodation_03",
+      "accommodation_01",
+      "vtac_preferences_03"
+    ],
+    "coverage": 0.875,
+    "accepted": true,
+    "prediction": "Select one site; you may request consideration for the same-campus alternative if unsuccessful.",
+    "source_url_attached": "https://www.monash.edu/accommodation/on-campus-accommodation/apply/faq"
+  },
+  {
+    "id": "heldout_library_06",
+    "kind": "answerable",
+    "question": "If a Victorian campus library item is overdue, can I still borrow and have my other loans auto-renew?",
+    "target_id": "library_06",
+    "reference_answer": "Further borrowing is blocked and other loans stop renewing automatically.",
+    "source_url": "https://www.monash.edu/library/find-and-borrow/borrowing",
+    "topic": "library",
+    "retrieved_ids": [
+      "library_06",
+      "library_01",
+      "library_03"
+    ],
+    "coverage": 0.3333333333333333,
+    "accepted": false,
+    "prediction": "I cannot establish that from the supplied Monash FAQ snapshot. Please check with the relevant official Monash team.",
+    "source_url_attached": null
+  },
+  {
+    "id": "heldout_graduate_study_05",
+    "kind": "answerable",
+    "question": "After enrolling in graduate coursework, where do I see my unit timetable?",
+    "target_id": "graduate_study_05",
+    "reference_answer": "Relevant timetables become available through Allocate+ after enrolment.",
+    "source_url": "https://www.monash.edu/graduate-study/faqs",
+    "topic": "graduate_study",
+    "retrieved_ids": [
+      "graduate_study_05",
+      "library_03",
+      "library_05"
+    ],
+    "coverage": 0.5714285714285714,
+    "accepted": true,
+    "prediction": "Relevant timetables become available through Allocate+ after enrolment.",
+    "source_url_attached": "https://www.monash.edu/graduate-study/faqs"
+  },
+  {
+    "id": "heldout_scholarship_applications_03",
+    "kind": "answerable",
+    "question": "Where should I submit a research masters or PhD scholarship application?",
+    "target_id": "scholarship_applications_03",
+    "reference_answer": "Applications for research masters and doctorate scholarships go through Monash Graduate Education.",
+    "source_url": "https://www.monash.edu/study/fees-scholarships/scholarships/applications",
+    "topic": "scholarship_applications",
+    "retrieved_ids": [
+      "scholarship_applications_03",
+      "scholarship_applications_06",
+      "scholarship_applications_05"
+    ],
+    "coverage": 0.42857142857142855,
+    "accepted": false,
+    "prediction": "I cannot establish that from the supplied Monash FAQ snapshot. Please check with the relevant official Monash team.",
+    "source_url_attached": null
+  },
+  {
+    "id": "heldout_international_postgraduate_01",
+    "kind": "answerable",
+    "question": "What determines international postgraduate course fees, and where should I check them?",
+    "target_id": "international_postgraduate_01",
+    "reference_answer": "Fees depend on your course and commencement year; consult course pages or the fee calculator.",
+    "source_url": "https://www.monash.edu/study/international/graduate",
+    "topic": "international_postgraduate",
+    "retrieved_ids": [
+      "international_postgraduate_01",
+      "online_study_04",
+      "international_application_04"
+    ],
+    "coverage": 0.5,
+    "accepted": true,
+    "prediction": "Fees depend on your course and commencement year; consult course pages or the fee calculator.",
+    "source_url_attached": "https://www.monash.edu/study/international/graduate"
+  },
+  {
+    "id": "unsupported_01",
+    "kind": "unsupported",
+    "question": "What is my personal Monash application status today?",
+    "target_id": null,
+    "reference_answer": "The supplied snapshot cannot establish this information.",
+    "source_url": null,
+    "topic": "international_application",
+    "retrieved_ids": [
+      "international_postgraduate_03",
+      "scholarship_applications_06",
+      "accommodation_01"
+    ],
+    "coverage": 0.4,
+    "accepted": false,
+    "prediction": "I cannot establish that from the supplied Monash FAQ snapshot. Please check with the relevant official Monash team.",
+    "source_url_attached": null
+  },
+  {
+    "id": "unsupported_02",
+    "kind": "unsupported",
+    "question": "What is the exact closing date for VTAC changes in 2028?",
+    "target_id": null,
+    "reference_answer": "The supplied snapshot cannot establish this information.",
+    "source_url": null,
+    "topic": "vtac_preferences",
+    "retrieved_ids": [
+      "accommodation_04",
+      "vtac_preferences_04",
+      "vtac_preferences_01"
+    ],
+    "coverage": 0.3333333333333333,
+    "accepted": false,
+    "prediction": "I cannot establish that from the supplied Monash FAQ snapshot. Please check with the relevant official Monash team.",
+    "source_url_attached": null
+  },
+  {
+    "id": "unsupported_03",
+    "kind": "unsupported",
+    "question": "What is the exact total 2028 tuition price for my Monash Online MBA?",
+    "target_id": null,
+    "reference_answer": "The supplied snapshot cannot establish this information.",
+    "source_url": null,
+    "topic": "online_study",
+    "retrieved_ids": [
+      "online_study_04",
+      "research_offers_04",
+      "online_study_01"
+    ],
+    "coverage": 0.5,
+    "accepted": true,
+    "prediction": "Check unit fees on the course page; the total depends on your units and approved credit.",
+    "source_url_attached": "https://online.monash.edu/faqs/"
+  },
+  {
+    "id": "unsupported_04",
+    "kind": "unsupported",
+    "question": "Am I personally guaranteed a place in Monash Scholars?",
+    "target_id": null,
+    "reference_answer": "The supplied snapshot cannot establish this information.",
+    "source_url": null,
+    "topic": "scholars_program",
+    "retrieved_ids": [
+      "vtac_preferences_05",
+      "scholars_program_05",
+      "scholars_program_03"
+    ],
+    "coverage": 0.3333333333333333,
+    "accepted": false,
+    "prediction": "I cannot establish that from the supplied Monash FAQ snapshot. Please check with the relevant official Monash team.",
+    "source_url_attached": null
+  },
+  {
+    "id": "unsupported_05",
+    "kind": "unsupported",
+    "question": "What will my Australian visa application cost in 2028?",
+    "target_id": null,
+    "reference_answer": "The supplied snapshot cannot establish this information.",
+    "source_url": null,
+    "topic": "research_offers",
+    "retrieved_ids": [
+      "accommodation_01",
+      "research_offers_02",
+      "scholarship_applications_06"
+    ],
+    "coverage": 0.4,
+    "accepted": false,
+    "prediction": "I cannot establish that from the supplied Monash FAQ snapshot. Please check with the relevant official Monash team.",
+    "source_url_attached": null
+  },
+  {
+    "id": "unsupported_06",
+    "kind": "unsupported",
+    "question": "Which exact room number will I be assigned next semester?",
+    "target_id": null,
+    "reference_answer": "The supplied snapshot cannot establish this information.",
+    "source_url": null,
+    "topic": "accommodation",
+    "retrieved_ids": [
+      "scholarship_applications_03",
+      "scholars_program_01",
+      "accommodation_01"
+    ],
+    "coverage": 0.14285714285714285,
+    "accepted": false,
+    "prediction": "I cannot establish that from the supplied Monash FAQ snapshot. Please check with the relevant official Monash team.",
+    "source_url_attached": null
+  },
+  {
+    "id": "unsupported_07",
+    "kind": "unsupported",
+    "question": "How many books are currently checked out on my personal library account?",
+    "target_id": null,
+    "reference_answer": "The supplied snapshot cannot establish this information.",
+    "source_url": null,
+    "topic": "library",
+    "retrieved_ids": [
+      "library_04",
+      "library_03",
+      "vtac_preferences_03"
+    ],
+    "coverage": 0.25,
+    "accepted": false,
+    "prediction": "I cannot establish that from the supplied Monash FAQ snapshot. Please check with the relevant official Monash team.",
+    "source_url_attached": null
+  },
+  {
+    "id": "unsupported_08",
+    "kind": "unsupported",
+    "question": "What is my individual graduate class timetable for next Tuesday?",
+    "target_id": null,
+    "reference_answer": "The supplied snapshot cannot establish this information.",
+    "source_url": null,
+    "topic": "graduate_study",
+    "retrieved_ids": [
+      "graduate_study_05",
+      "international_application_05",
+      "scholarship_applications_02"
+    ],
+    "coverage": 0.3333333333333333,
+    "accepted": false,
+    "prediction": "I cannot establish that from the supplied Monash FAQ snapshot. Please check with the relevant official Monash team.",
+    "source_url_attached": null
+  },
+  {
+    "id": "unsupported_09",
+    "kind": "unsupported",
+    "question": "Will my personal PhD scholarship application be successful?",
+    "target_id": null,
+    "reference_answer": "The supplied snapshot cannot establish this information.",
+    "source_url": null,
+    "topic": "scholarship_applications",
+    "retrieved_ids": [
+      "scholarship_applications_06",
+      "scholarship_applications_01",
+      "research_offers_06"
+    ],
+    "coverage": 0.4,
+    "accepted": false,
+    "prediction": "I cannot establish that from the supplied Monash FAQ snapshot. Please check with the relevant official Monash team.",
+    "source_url_attached": null
+  },
+  {
+    "id": "unsupported_10",
+    "kind": "unsupported",
+    "question": "What exact postgraduate tuition will I owe after my individual credit assessment?",
+    "target_id": null,
+    "reference_answer": "The supplied snapshot cannot establish this information.",
+    "source_url": null,
+    "topic": "international_postgraduate",
+    "retrieved_ids": [
+      "online_study_04",
+      "international_postgraduate_01",
+      "research_offers_04"
+    ],
+    "coverage": 0.25,
+    "accepted": false,
+    "prediction": "I cannot establish that from the supplied Monash FAQ snapshot. Please check with the relevant official Monash team.",
+    "source_url_attached": null
+  }
+]

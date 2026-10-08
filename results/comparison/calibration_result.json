@@ -1,0 +1,117 @@
+{
+  "threshold": 0.5,
+  "selection": "Maximize calibration decision count; ties prefer greater abstention.",
+  "calibration_only": true,
+  "candidates": [
+    {
+      "threshold": 0.0,
+      "correct_decisions": 5,
+      "total": 10
+    },
+    {
+      "threshold": 0.05,
+      "correct_decisions": 5,
+      "total": 10
+    },
+    {
+      "threshold": 0.1,
+      "correct_decisions": 5,
+      "total": 10
+    },
+    {
+      "threshold": 0.15,
+      "correct_decisions": 5,
+      "total": 10
+    },
+    {
+      "threshold": 0.2,
+      "correct_decisions": 5,
+      "total": 10
+    },
+    {
+      "threshold": 0.25,
+      "correct_decisions": 6,
+      "total": 10
+    },
+    {
+      "threshold": 0.3,
+      "correct_decisions": 8,
+      "total": 10
+    },
+    {
+      "threshold": 0.35,
+      "correct_decisions": 10,
+      "total": 10
+    },
+    {
+      "threshold": 0.4,
+      "correct_decisions": 10,
+      "total": 10
+    },
+    {
+      "threshold": 0.45,
+      "correct_decisions": 10,
+      "total": 10
+    },
+    {
+      "threshold": 0.5,
+      "correct_decisions": 10,
+      "total": 10
+    },
+    {
+      "threshold": 0.55,
+      "correct_decisions": 9,
+      "total": 10
+    },
+    {
+      "threshold": 0.6,
+      "correct_decisions": 7,
+      "total": 10
+    },
+    {
+      "threshold": 0.65,
+      "correct_decisions": 6,
+      "total": 10
+    },
+    {
+      "threshold": 0.7,
+      "correct_decisions": 6,
+      "total": 10
+    },
+    {
+      "threshold": 0.75,
+      "correct_decisions": 6,
+      "total": 10
+    },
+    {
+      "threshold": 0.8,
+      "correct_decisions": 5,
+      "total": 10
+    },
+    {
+      "threshold": 0.85,
+      "correct_decisions": 5,
+      "total": 10
+    },
+    {
+      "threshold": 0.9,
+      "correct_decisions": 5,
+      "total": 10
+    },
+    {
+      "threshold": 0.95,
+      "correct_decisions": 5,
+      "total": 10
+    },
+    {
+      "threshold": 1.0,
+      "correct_decisions": 5,
+      "total": 10
+    },
+    {
+      "threshold": 1.01,
+      "correct_decisions": 5,
+      "total": 10
+    }
+  ]
+}

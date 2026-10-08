@@ -1,0 +1,8 @@
+{
+  "review_type": "Agent-assisted, unblinded, strict reference support; no independent human adjudication.",
+  "raw_predictions_sha256": "5a7b04694512b51ec4b8e198c1a2bbfc687ff110793cdaedf281fda271a77091",
+  "reviewed_predictions_sha256": "7c74cba5b7cf0977bef72387b9f17e7f2779944b96010fc4562c6ed937b5612d",
+  "rubric": "docs/REVIEW_RUBRIC.md",
+  "rows": 120,
+  "note": "Source URLs are evaluated separately. General direction alone is not explicit refusal. Full-body support can reject partially correct answers; notes explain every decision."
+}

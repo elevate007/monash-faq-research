@@ -1,0 +1,21 @@
+{
+  "gpu": "Tesla T4",
+  "seed": 42,
+  "python": "3.13.15",
+  "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "adapter_source": "/kaggle/working/monash_finetune_run/monash_qa_adapter",
+  "max_new_tokens": 160,
+  "do_sample": false,
+  "peak_allocated_gpu_bytes": 1298950144,
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "transformers": "4.57.6",
+    "peft": "0.18.1",
+    "bitsandbytes": "0.49.2"
+  },
+  "benchmark_sha256": "1f7803587a67e81e524da348c57fc6f77657a02fe3a33b55b0b492b7a39dca40",
+  "calibration_sha256": "3480c8121aa2196c2cc02b5856239a140abb65fb2b1e5d161b916b811339aa7b",
+  "knowledge_base_sha256": "25b4ffe0f165577d9fd358448fabf3b16513e745edf26866cb6f6d3ad1e8e667",
+  "note": "All 58 facts are available to retrieval. Ten answerable prompts paraphrase the ten fine-tuning holdout facts. Ten unsupported prompts ask for unavailable personal or future details. No independent blinded human assessment. Candidate URLs are retrieval metadata, not proven supporting citations. Gated output reuses rag_base output."
+}

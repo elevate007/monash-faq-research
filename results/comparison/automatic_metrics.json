@@ -1,0 +1,50 @@
+{
+  "base": {
+    "answerable_size": 10,
+    "unsupported_size": 10,
+    "answerable_refusal_heuristic_count": 0,
+    "unsupported_refusal_heuristic_count": 5,
+    "generated_url_count": 8,
+    "reference_in_candidate_sources_count": 0
+  },
+  "extractive_bm25": {
+    "answerable_size": 10,
+    "unsupported_size": 10,
+    "answerable_refusal_heuristic_count": 5,
+    "unsupported_refusal_heuristic_count": 9,
+    "generated_url_count": 0,
+    "reference_in_candidate_sources_count": 5
+  },
+  "gated_rag_base": {
+    "answerable_size": 10,
+    "unsupported_size": 10,
+    "answerable_refusal_heuristic_count": 5,
+    "unsupported_refusal_heuristic_count": 10,
+    "generated_url_count": 0,
+    "reference_in_candidate_sources_count": 5
+  },
+  "qlora": {
+    "answerable_size": 10,
+    "unsupported_size": 10,
+    "answerable_refusal_heuristic_count": 0,
+    "unsupported_refusal_heuristic_count": 0,
+    "generated_url_count": 21,
+    "reference_in_candidate_sources_count": 0
+  },
+  "rag_base": {
+    "answerable_size": 10,
+    "unsupported_size": 10,
+    "answerable_refusal_heuristic_count": 0,
+    "unsupported_refusal_heuristic_count": 4,
+    "generated_url_count": 0,
+    "reference_in_candidate_sources_count": 10
+  },
+  "rag_qlora": {
+    "answerable_size": 10,
+    "unsupported_size": 10,
+    "answerable_refusal_heuristic_count": 0,
+    "unsupported_refusal_heuristic_count": 1,
+    "generated_url_count": 2,
+    "reference_in_candidate_sources_count": 10
+  }
+}
